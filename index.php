@@ -45,9 +45,9 @@
     }
  
     function potterJSON(data){
-
+      $('#sort').html('');//clear sort data
       
-//get selected houses for title display
+        //get selected houses for title display
         var house_checkboxes = $('input[name=character_house]:checked');
         var houses = [];
         $(house_checkboxes).each(function(){
